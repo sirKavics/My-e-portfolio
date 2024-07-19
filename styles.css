@@ -41,7 +41,7 @@ li {
 }
 
 .text--purple {
-    color: #6030b1;
+    color: #900C3F;
 }
 
 /* NAVIGATION BAR */
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #900C3F;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -76,12 +76,12 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #ca1e00;
 }
 
 .personal_logo {
     font-size: 24px;
-    color:#6030b1;
+    color:#900C3F;
     margin: 0 12px;
     font-weight: bold;
 }
