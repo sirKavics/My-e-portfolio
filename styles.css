@@ -41,7 +41,7 @@ li {
 }
 
 .text--purple {
-    color: #900C3F;
+    color: #980d00;
 }
 
 /* NAVIGATION BAR */
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #900C3F;
+    background-color: #980d00;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -81,7 +81,7 @@ nav {
 
 .personal_logo {
     font-size: 24px;
-    color:#900C3F;
+    color:#980d00;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -90,6 +90,11 @@ nav {
 
 #about-me {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info {
     display: flex;
     flex-direction: column;
 }
@@ -131,4 +136,14 @@ nav {
     color: #242424;
     text-decoration: none;
     padding: 16px;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }
